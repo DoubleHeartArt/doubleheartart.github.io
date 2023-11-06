@@ -67,7 +67,30 @@
 
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1"><meta property="description" content="Arts, Crafts, and Mobile Apps"><link href="css/tiny_heart.png" rel="shortcut icon"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" class="silex-custom-font"><script src="js/script.js"></script><link href="css/styles.css" rel="stylesheet"><script src="https://unpkg.com/scrollreveal"></script><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><meta property="description" content="Arts, Crafts, and Mobile Apps"><link href="css/tiny_heart.png" rel="shortcut icon"><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" class="silex-custom-font"><script src="js/script.js"></script><link href="css/styles.css" rel="stylesheet"><script src="https://unpkg.com/scrollreveal"></script>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCoT9pNUFz_JIoaQsaXTMO0NKvy-PNxRgw",
+    authDomain: "doubleheartart-site.firebaseapp.com",
+    projectId: "doubleheartart-site",
+    storageBucket: "doubleheartart-site.appspot.com",
+    messagingSenderId: "346363587635",
+    appId: "1:346363587635:web:45d34e69b49b57e3458746",
+    measurementId: "G-YL4D2FH6JR"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
 
 <body class="body-initial is-not-active all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime silex-published" data-current-page="page-apps">
     
